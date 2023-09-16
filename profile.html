@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!----CSS---->
+    <link rel="stylesheet" href="profile.css" />
+    <!----Boxicons---->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Mockup</title>
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img
+              src="https://img.freepik.com/free-vector/butterfly-logo-colorful-gradient-illustrations_483537-963.jpg?w=740&t=st=1689817868~exp=1689818468~hmac=4c419093db83d9bf281bcf588ebd7d829f6555da8a9d9746c8605a349d5c8249"
+              alt=""
+            />
+          </span>
+          <div class="text logo-text">
+            <span class="name">Mindspark</span>
+            <span class="profession">let Spark Your Mind</span>
+          </div>
+        </div>
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+      <div class="menu-bar">
+        <div class="menu">
+          <li class="search-box">
+            <i class="bx bx-search icon"></i>
+            <input type="text" placeholder="Search..." />
+          </li>
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="text nav-text">Home</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-user-circle icon"></i>
+                <span class="text nav-text">Profile</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-brain icon'></i>
+                <span class="text nav-text">Projects</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class="bx bx-spreadsheet icon"></i>
+                <span class="text nav-text">Collaboration</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-briefcase-alt-2 icon'></i>
+                <span class="text nav-text">Internships/Mentorships</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bx-grid-small icon'></i>
+                <span class="text nav-text">Resources</span>
+              </a>
+            </li>
+            <li class="nav-link">
+              <a href="#">
+                <i class='bx bxs-bell-ring icon' ></i>
+                <span class="text nav-text">Notification</span>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+        <div class="bottom-content">
+          <li class="">
+            <a href="#">
+              <i class="bx bx-log-out icon"></i>
+              <span class="text nav-text">Logout</span>
+            </a>
+          </li>
+          <li class="mode">
+            <div class="sun-moon">
+              <i class="bx bx-moon icon moon"></i>
+              <i class="bx bx-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark mode</span>
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+    
+      <section class="home" id="home">
+        <div class="home">
+          <div>
+          <img src="tm.png" alt="" />
+        </div>
+        <div class="home-content">
+          <h3>Hi Tom</h3>
+          <h1>welcome back</h1>
+
+          <div class="social-media">
+            <a href="##"><i class="bx bxl-facebook-circle"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          </div>
+          <div class="bos">
+            <ul class="box-info">
+              <h3>Profile</h3>
+              <li>
+                <span class="text">
+                  <h3>#112</h3>
+                  <p>Total Projects</p>
+                </span>
+              </li>
+              <li>
+                <span class="text">
+                  <h2>#18</h2>
+                  <p>Collaborations</p>
+                </span>
+              </li>
+              <li>
+                <span class="text">
+                  <h2> #5 </h2>
+                  <p>Industry Engagements</p>
+                </span>
+              </li>
+            </ul>
+            <a href="#" class="btn">Contact</a>
+          </div>
+          <div class="boss">
+            <ul class="box-info">
+              <h3>Skills & institutional background</h3>
+              <li>
+                <span class="text">
+                  <p>Lakshmi Narain College of Technology</p>
+                  <h2>ongoing</h2>
+                </span>
+              </li>
+              <li>
+                <span class="text">
+                  <p>HTML,CSS,Bootstrap,Node.js</p>
+                  <h2>Web</h2>
+                </span>
+              </li>
+              <li>
+                <span class="text">
+                  <p>Python,Java,C++,Kotlin</p>
+                  <h2>Languages</h2>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+       
+      
+    </section>
+    <section class="project">
+      <img src="https://blog-cdn.everhour.com/blog/wp-content/uploads/2022/05/monday-PM-visual.jpg" alt="" />
+  </section>
+    
+    <script>
+      const body = document.querySelector("body"),
+        sidebar = body.querySelector("nav"),
+        toggle = body.querySelector(".toggle"),
+        searchBtn = body.querySelector(".search-box"),
+        modeSwitch = body.querySelector(".toggle-switch"),
+        modeText = body.querySelector(".mode-text");
+      toggle.addEventListener("click", () => {
+        sidebar.classList.toggle("close");
+      });
+      searchBtn.addEventListener("click", () => {
+        sidebar.classList.remove("close");
+      });
+      modeSwitch.addEventListener("click", () => {
+        body.classList.toggle("dark");
+
+        if (body.classList.contains("dark")) {
+          modeText.innerText = "Light mode";
+        } else {
+          modeText.innerText = "Dark mode";
+        }
+      });
+    </script>
+  </body>
+</html>
