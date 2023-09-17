@@ -2,198 +2,265 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!----CSS---->
     <link rel="stylesheet" href="profile.css" />
-    <!----Boxicons---->
+
     <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
-    <title>Mockup</title>
+    <title>Profile</title>
   </head>
   <body>
-    <nav class="sidebar close">
-      <header>
-        <div class="image-text">
-          <span class="image">
+    <nav>
+      <div class="wrapper">
+        <div class="left">
+          <div class="logo">
             <img
-              src="https://img.freepik.com/free-vector/butterfly-logo-colorful-gradient-illustrations_483537-963.jpg?w=740&t=st=1689817868~exp=1689818468~hmac=4c419093db83d9bf281bcf588ebd7d829f6555da8a9d9746c8605a349d5c8249"
+              src="https://cdn.leonardo.ai/users/84b608ed-34f4-4a66-b168-385fc3c8a706/generations/243cda83-1047-41bc-9b6e-8932e9171101/variations/Default_a_simple_logo_of_M_with_dark_blue_background_3_243cda83-1047-41bc-9b6e-8932e9171101_0.png?w=512"
               alt=""
             />
-          </span>
-          <div class="text logo-text">
-            <span class="name">Mindspark</span>
-            <span class="profession">let Spark Your Mind</span>
+          </div>
+          <div class="input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" placeholder="Search for projects,collabs..." />
           </div>
         </div>
-        <i class="bx bx-chevron-right toggle"></i>
-      </header>
-      <div class="menu-bar">
-        <div class="menu">
-          <li class="search-box">
-            <i class="bx bx-search icon"></i>
-            <input type="text" placeholder="Search..." />
-          </li>
-          <ul class="menu-links">
-            <li class="nav-link">
-              <a href="#">
-                <i class="bx bx-home-alt icon"></i>
-                <span class="text nav-text">Home</span>
-              </a>
-            </li>
-            <li class="nav-link">
-              <a href="#">
-                <i class="bx bx-user-circle icon"></i>
-                <span class="text nav-text">Profile</span>
-              </a>
-            </li>
-            <li class="nav-link">
-              <a href="#">
-                <i class='bx bx-brain icon'></i>
-                <span class="text nav-text">Projects</span>
-              </a>
-            </li>
-            <li class="nav-link">
-              <a href="#">
-                <i class="bx bx-spreadsheet icon"></i>
-                <span class="text nav-text">Collaboration</span>
-              </a>
-            </li>
-            <li class="nav-link">
-              <a href="#">
-                <i class='bx bx-briefcase-alt-2 icon'></i>
-                <span class="text nav-text">Internships/Mentorships</span>
-              </a>
-            </li>
-            <li class="nav-link">
-              <a href="#">
-                <i class='bx bx-grid-small icon'></i>
-                <span class="text nav-text">Resources</span>
-              </a>
-            </li>
-            <li class="nav-link">
-              <a href="#">
-                <i class='bx bxs-bell-ring icon' ></i>
-                <span class="text nav-text">Notification</span>
-              </a>
-            </li>
-            
-          </ul>
-        </div>
-        <div class="bottom-content">
-          <li class="">
-            <a href="#">
-              <i class="bx bx-log-out icon"></i>
-              <span class="text nav-text">Logout</span>
-            </a>
-          </li>
-          <li class="mode">
-            <div class="sun-moon">
-              <i class="bx bx-moon icon moon"></i>
-              <i class="bx bx-sun icon sun"></i>
+        <div class="right">
+          <div class="home">
+            <i class="fa-solid fa-house"></i>
+            <h6>Home</h6>
+          </div>
+          <div class="network">
+            <i class="fa-solid fa-user-group"></i>
+            <h6>My Collabs</h6>
+          </div>
+          <div class="jobs">
+            <i class="fa-solid fa-suitcase"></i>
+            <h6>Collaborations</h6>
+          </div>
+          <div class="message">
+            <i class="fa-solid fa-message"></i>
+            <h6>Internships</h6>
+          </div>
+          <div class="notification">
+            <i class="fa-solid fa-bell"></i>
+            <h6>Notifications</h6>
+          </div>
+          <div class="me">
+            <i class="fa-solid fa-user"></i>
+            <div class="down">
+              <h6>Me</h6>
+              <i class="fa-solid fa-angle-down"></i>
             </div>
-            <span class="mode-text text">Dark mode</span>
-            <div class="toggle-switch">
-              <span class="switch"></span>
+          </div>
+          <div class="work">
+            <i class="fa-solid fa-braille"></i>
+            <div class="down">
+              <h6>My Projects</h6>
+              <i class="fa-solid fa-angle-down"></i>
             </div>
-          </li>
+          </div>
+          <a href="#">Try Premium</a>
         </div>
       </div>
     </nav>
-    
-      <section class="home" id="home">
-        <div class="home">
-          <div>
-          <img src="tm.png" alt="" />
-        </div>
-        <div class="home-content">
-          <h3>Hi Tom</h3>
-          <h1>welcome back</h1>
 
-          <div class="social-media">
-            <a href="##"><i class="bx bxl-facebook-circle"></i></a>
-            <a href="#"><i class="bx bxl-twitter"></i></a>
-            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+    <div class="container">
+      <aside>
+        <div class="sidebar">
+          <div class="top"></div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiOEyEp3UB9Psoc1a4NPzhwoJn6F3y3SFzXA&usqp=CAU"
+            alt=""
+          />
+
+          <div class="profile">
+            <a href="#">Tom Holland</a>
+            <small>Lakshmi Narain College of Technology</small>
+            <hr id="profile" />
           </div>
-          <div class="bos">
-            <ul class="box-info">
-              <h3>Profile</h3>
-              <li>
-                <span class="text">
-                  <h3>#112</h3>
-                  <p>Total Projects</p>
-                </span>
-              </li>
-              <li>
-                <span class="text">
-                  <h2>#18</h2>
-                  <p>Collaborations</p>
-                </span>
-              </li>
-              <li>
-                <span class="text">
-                  <h2> #5 </h2>
-                  <p>Industry Engagements</p>
-                </span>
-              </li>
-            </ul>
-            <a href="#" class="btn">Contact</a>
+          <div class="view">
+            <div class="views">
+              <h6>Total Projects</h6>
+              <a href="#">42</a>
+            </div>
+            <div class="views">
+              <h6>Total Collaborations</h6>
+              <a href="#">24</a>
+            </div>
+            <hr id="view" />
           </div>
-          <div class="boss">
-            <ul class="box-info">
-              <h3>Skills & institutional background</h3>
-              <li>
-                <span class="text">
-                  <p>Lakshmi Narain College of Technology</p>
-                  <h2>ongoing</h2>
-                </span>
-              </li>
-              <li>
-                <span class="text">
-                  <p>HTML,CSS,Bootstrap,Node.js</p>
-                  <h2>Web</h2>
-                </span>
-              </li>
-              <li>
-                <span class="text">
-                  <p>Python,Java,C++,Kotlin</p>
-                  <h2>Languages</h2>
-                </span>
-              </li>
-            </ul>
+          <div class="premium">
+            <h6>Access exclusive tools & insights</h6>
+            <a href="#"><i class="fa-solid fa-box"></i>Try Premium for free</a>
+            <hr id="premium" />
+          </div>
+          <div class="items">
+            <i class="fa-solid fa-bookmark"></i>
+            <h6>My Projects</h6>
           </div>
         </div>
-       
-      
-    </section>
-    <section class="project">
-      <img src="https://blog-cdn.everhour.com/blog/wp-content/uploads/2022/05/monday-PM-visual.jpg" alt="" />
-  </section>
-    
-    <script>
-      const body = document.querySelector("body"),
-        sidebar = body.querySelector("nav"),
-        toggle = body.querySelector(".toggle"),
-        searchBtn = body.querySelector(".search-box"),
-        modeSwitch = body.querySelector(".toggle-switch"),
-        modeText = body.querySelector(".mode-text");
-      toggle.addEventListener("click", () => {
-        sidebar.classList.toggle("close");
-      });
-      searchBtn.addEventListener("click", () => {
-        sidebar.classList.remove("close");
-      });
-      modeSwitch.addEventListener("click", () => {
-        body.classList.toggle("dark");
 
-        if (body.classList.contains("dark")) {
-          modeText.innerText = "Light mode";
-        } else {
-          modeText.innerText = "Dark mode";
-        }
-      });
-    </script>
+        <div class="recent_jobs">
+          <div class="recent">
+            <h6>Industry Engagements</h6>
+            <div class="one">
+              <i class="fa-solid fa-users"></i>
+              <h6>Wipro</h6>
+            </div>
+            <div class="one">
+              <i class="fa-solid fa-users"></i>
+              <h6>Infosys</h6>
+            </div>
+            <div class="one">
+              <i class="fa-solid fa-users"></i>
+              <h6>Google</h6>
+            </div>
+            <div class="one">
+              <i class="fa-solid fa-users"></i>
+              <h6>IBM</h6>
+            </div>
+          </div>
+          <div class="groups">
+            <h5>Skills</h5>
+            <div class="two">
+              <h6>Web development</h6>
+            </div>
+            <div class="two">
+              <h6>Deep Learning</h6>
+            </div>
+            <div class="two">
+              <h6>NLP</h6>
+            </div>
+            <div class="two">
+              <h6>Database</h6>
+            </div>
+          </div>
+          <div class="events">
+            <h6>Events</h6>
+            <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="discover">
+            <a href="#">Discover more</a>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <div class="main_section">
+          <div id="close"><i class="fa-solid fa-xmark"></i></div>
+          <div class="event">
+            <h3>Uploaded Project</h3>
+          </div>
+          <div class="box">
+            <img
+              src="https://www.elprocus.com/wp-content/uploads/2014/12/Auto-Metro-Train-to-Shuttle-between-Stations.jpg"
+              alt=""
+            />
+            <div class="content">
+              <p>
+                Auto Metro Train that Shuttles between Two Stations
+                <br />
+                <br />
+                The main goal of this project is to demonstrate the technology,
+                which used in a metro train movement. This project is used in
+                many developed countries. The metro train is equipped with a
+                controller, which allows the automatic running of the train from
+                one station to another
+              </p>
+            </div>
+            <button class="btn">Learn more</button>
+          </div>
+        </div>
+        <div class="media">
+          <div class="search">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiOEyEp3UB9Psoc1a4NPzhwoJn6F3y3SFzXA&usqp=CAU"
+              alt=""
+            />
+            <input type="search" placeholder="Start a post" />
+          </div>
+          <div class="posts">
+            <div class="post">
+              <i class="fa-solid fa-image"></i>
+              <h5>Photo</h5>
+            </div>
+            <div class="post">
+              <i class="fa-solid fa-video"></i>
+              <h5>Video</h5>
+            </div>
+            <div class="post">
+              <i class="fa-solid fa-briefcase"></i>
+              <h5>Collab</h5>
+            </div>
+            <div class="post">
+              <i class="fa-solid fa-pen"></i>
+              <h5>Description</h5>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <div class="right_side">
+        <div class="news">
+          <h4>MindSpark News</h4>
+          <i class="fa-solid fa-circle-info"></i>
+        </div>
+        <div class="latest_news">
+          <div class="one">
+            <i class="fa-solid fa-circle"></i>
+            <h5>Preparing for interviews</h5>
+          </div>
+          <div class="two">
+            <small>1d ago</small>
+          </div>
+        </div>
+        <div class="latest_news">
+          <div class="one">
+            <i class="fa-solid fa-circle"></i>
+            <h5>Peter got investment of 1.2cr</h5>
+          </div>
+          <div class="two">
+            <small>13hr ago</small>
+          </div>
+        </div>
+        <div class="latest_news">
+          <div class="one">
+            <i class="fa-solid fa-circle"></i>
+            <h5>What companies wants?</h5>
+          </div>
+          <div class="two">
+            <small>1d ago</small>
+          </div>
+        </div>
+        <div class="latest_news">
+          <div class="one">
+            <i class="fa-solid fa-circle"></i>
+            <h5>Start your Own Startup</h5>
+          </div>
+          <div class="two">
+            <small>3d ago</small>
+          </div>
+        </div>
+        <div class="latest_news">
+          <div class="one">
+            <i class="fa-solid fa-circle"></i>
+            <h5>The latest in the startup world</h5>
+          </div>
+          <div class="two">
+            <small>3d ago</small>
+          </div>
+        </div>
+        <div class="show_more">
+          <h5>Show more</h5>
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
