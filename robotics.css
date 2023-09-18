@@ -1,6 +1,7 @@
 body,
 html {
   -webkit-text-size-adjust: 100%;
+  background-color: rgb(19, 20, 20);
 }
 
 #books,
@@ -138,10 +139,10 @@ blockquote {
 
 body {
   margin: 0;
-  color: #666;
+  color: rgb(210, 255, 250);
   font-family: "Leon Sans", "KoPub Batang", serif;
   font-weight: 300;
-  background-color: #fefefe;
+  background-color: rgb(19, 20, 20);
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -421,7 +422,7 @@ h2 {
 
 h2 a {
   border-bottom-style: none;
-  color: #000 !important;
+  color: #0ef !important;
 }
 
 .meta {
@@ -499,7 +500,7 @@ img.size-thumbnail-last {
 .cmproject ul li h4 {
   font-family: "Leon Sans", "Pretendard Variable", serif;
   font-style: normal;
-  color: #111;
+  color: #fff;
 }
 
 .cmproject ul li h4 {
